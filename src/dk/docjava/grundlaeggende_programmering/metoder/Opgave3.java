@@ -77,10 +77,10 @@ public class Opgave3 {
     }
 
     static int midterst(int a, int b, int c) {
-        if (a < b && b < c || a > b && b > c) {
+        if (a <= b && b < c || a > b && b > c) {
             System.out.println(b);
             return b;
-        } else if (b < a && a < c || b > a && a > c) {
+        } else if (b <= a && a < c || b > a && a > c) {
             System.out.println(a);
             return a;
         } else {
