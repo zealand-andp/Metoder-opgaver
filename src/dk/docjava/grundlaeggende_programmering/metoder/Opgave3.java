@@ -27,11 +27,52 @@ public class Opgave3 {
         // Input: a = 3, b = 7, c = 2
         // Forventet output: 3
 
+        // Input
+        a = 3;
+        b = 7;
+        c = 2;
 
+        output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 3)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
 
         // Test case hvor midterste værdi er midterst
         // Input: a = 10, b = 25, c = 50
         // Forventet output: 25
+
+        // Input
+        a = 10;
+        b = 25;
+        c = 50;
+
+        output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 25)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
+
+        // Test case hvor midterste værdi er midterst
+        // Input: a = 6, b = 6, c = 10
+        // Forventet output: 6
+
+        // Input
+        a = 6;
+        b = 6;
+        c = 10;
+
+        output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 6)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
 
     }
 
