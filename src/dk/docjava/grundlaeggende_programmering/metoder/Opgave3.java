@@ -74,6 +74,40 @@ public class Opgave3 {
         else
             System.out.println("FAIL");
 
+        // Test case hvor midterste værdi er midterst
+        // Input: a = 6, b = 10, c = 6
+        // Forventet output: 6
+
+        // Input
+        a = 6;
+        b = 10;
+        c = 6;
+
+        output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 6)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
+
+        // Test case hvor midterste værdi er midterst
+        // Input: a = 10, b = 6, c = 6
+        // Forventet output: 6
+
+        // Input
+        a = 10;
+        b = 6;
+        c = 6;
+
+        output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 6)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
+
     }
 
     static int midterst(int a, int b, int c) {
