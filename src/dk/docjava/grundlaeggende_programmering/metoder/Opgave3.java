@@ -10,6 +10,19 @@ public class Opgave3 {
         // Input: a = 6, b = 10, c = 8
         // Forventet output: 8
 
+        // Input
+        int a = 6;
+        int b = 10;
+        int c = 8;
+
+        int output = midterst(a, b, c);
+
+        // Sammenligning med forventet output
+        if (output == 8)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
+
         // Test case hvor første værdi er midterst
         // Input: a = 3, b = 7, c = 2
         // Forventet output: 3
