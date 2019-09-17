@@ -27,9 +27,25 @@ public class Opgave3 {
         // Input: a = 3, b = 7, c = 2
         // Forventet output: 3
 
+
+
         // Test case hvor midterste værdi er midterst
         // Input: a = 10, b = 25, c = 50
         // Forventet output: 25
+
+    }
+
+    static int midterst(int a, int b, int c) {
+        if (a < b && b < c || a > b && b > c) {
+            System.out.println(b);
+            return b;
+        } else if (b < a && a < c || b > a && a > c) {
+            System.out.println(a);
+            return a;
+        } else {
+            System.out.println(c);
+            return c;
+        }
 
     }
 }
